@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="scripts/jquery-3.1.1.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Simple - Calculator</title>
+    <link rel="icon" href="calculator.png" type="image/png" />
+</head>
+
+<body>
+    <div id="calculatorField">
+        <div id="firstRow">
+            <input class="screen" type="text"  maxlength="19" disabled></input>
+        </div>
+        <hr>
+        <div id="secondRow">
+            <input type="button" class="number" id="one" value="1"/>
+            <input type="button" class="number" id="two" value="2"/>
+            <input type="button" class="number" id="three" value="3"/>
+            <input type="button" class="plus" id="plus" value="+"/>
+        </div>
+        <div id="thirdRow">
+            <input type="button" class="number" id="four" value="4"/>
+            <input type="button" class="number" id="five" value="5"/>
+            <input type="button" class="number" id="six" value="6"/>
+            <input type="button" class="minus" id="minus" value="-"/>
+        </div>
+        <div id="forthRow">
+            <input type="button" class="number" id="seven" value="7"/>
+            <input type="button" class="number" id="eight" value="8"/>
+            <input type="button" class="number" id="nine" value="9"/>
+            <input type="button" class="multiplication" id="multiplication" value="&times"/>
+        </div>
+        <div id="fifthRow">
+            <input type="button" class="number" id="zero" value="0"/>
+            <input type="button" class="point" id="point" value="."/>
+            <input type="button" class="equals" id="equals" value="="/>
+            <input type="button" class="division" id="division" value="&divide"/>
+        </div>
+        <div id="sixthRow">
+            <input type="button" class="twoSquared" id="twoSquared" value="x&#178"/>
+            <input type="button" class="plusmn" id="plusmn" value="&plusmn"/>
+            <input type="button" class="clear" id="clear" value="C"/>
+        </div>
+    </div>
+    <script> startApp() </script>
+</body>
+
+</html>

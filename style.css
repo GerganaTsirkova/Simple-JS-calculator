@@ -1,0 +1,110 @@
+body {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+* {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+  }
+
+#calculatorField {
+    display: inline-block;
+    margin: 100px;
+    border: 5px solid black;
+    background: #e6e6e6;
+}
+
+hr{
+    border: 2.5px solid black;
+}
+
+#firstRow, #secondRow, #thirdRow, #forthRow, #fifthRow, #sixthRow{
+    display: block;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.number, .plus, .minus, .multiplication, .division, .clear, .equals, .point, .twoSquared, .plusmn {
+    height: 50px;
+    border-radius: 0.4rem;
+    margin: 10px;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    cursor: default;
+}
+
+.number, .plus, .minus, .multiplication, .division, .equals, .point, .twoSquared, .plusmn {
+    width: 100px;
+}
+
+#firstRow{
+    width: 430px;
+}
+
+.screen {
+    display: inline-block;
+    background: #006699;
+    height: 50px;
+    border-radius: 0.4rem;
+    margin: 10px;
+    text-align: right;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
+input {
+    outline: none;
+    color: white;
+    font-size: 40px;
+}
+
+/*remove the scroler of the input*/
+input[type=text]::-webkit-inner-spin-button, 
+input[type=text]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.number, .equals, .point {
+    background: black;
+}
+
+.clear {
+    background: red;
+    width: 45.8%;
+}
+
+.plusmn {
+    background: #6600cc;
+}
+
+.minus {
+    background: purple;
+}
+
+.plus {
+    background: darkorange
+}
+
+.division {
+    background: green;
+}
+
+.multiplication {
+    background: #66ccff;
+}
+
+.twoSquared {
+    background: #669999;
+}
